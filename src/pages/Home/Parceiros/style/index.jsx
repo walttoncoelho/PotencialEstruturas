@@ -9,6 +9,8 @@ export const Container = styled.div`
   flex-direction: column;
   margin: auto;
   padding: 2px;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const Grid1 = styled.div`
@@ -23,15 +25,16 @@ export const Grid2 = styled.div`
   max-width: 1555px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   margin: auto;
-  flex: 1 2 200px;
-`;
+  justify-content: center;
+  align-items: center;
+  
+  `;
 
 export const Card = styled.div`
+
   display: flex;
-  max-width: 250px;
-  height: 150px;
+  max-width:150px; 
   margin: auto;
   margin-top: 20px;
   border-radius: 9px;
