@@ -30,7 +30,7 @@ export function Footer() {
                   <a href="sobre">SOBRE</a>
                 </li>
                 <li>
-                  <a href="servicos">PROCEDIMENTOS</a>
+                  <a href="servicos">SERVIÇOS</a>
                 </li>
 
                 <li>
@@ -38,21 +38,7 @@ export function Footer() {
                 </li>
               </ul>
 
-              <ul>
-                <li>
-                  <a href="listavip">LISTA VIP</a>
-                </li>
-
-                <li>
-                  <a href="tratamentos">TRATAMENTOS</a>
-                </li>
-                <li>
-                  <a href="produtos">PRODUTOS</a>
-                </li>
-                <li>
-                  <a href="consorcio">CONSÓRCIO</a>
-                </li>
-              </ul>
+             
             </>
           </Grid2>
           <Grid3></Grid3>

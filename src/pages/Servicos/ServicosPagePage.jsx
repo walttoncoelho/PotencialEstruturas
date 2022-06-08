@@ -7,7 +7,7 @@ import {
  
 } from "./styles/style";
 
-export function ProcedimentosPage() {
+export function ServicosPage() {
   return (
     <>
       <Banner>
