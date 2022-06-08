@@ -18,8 +18,8 @@ export const Container = styled.section`
   
   background: linear-gradient(
     34deg,
-    #5a1b55 0%,
-    rgba(168, 62, 163, 0.918) 35%
+    #5a1b1b 0%,
+    rgba(168, 62, 62, 0.918) 35%
   );
 
   opacity: 0;
@@ -35,7 +35,8 @@ export const Container = styled.section`
     right: 1rem;
     transform: rotate(45deg);
     transition: 0.7s;
-    fill: #fff;
+    fill: #ffd000;
+   
   }
 
   nav {

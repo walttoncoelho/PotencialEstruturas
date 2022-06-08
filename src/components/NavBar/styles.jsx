@@ -6,6 +6,7 @@ export const Container = styled.nav`
 
 export const Logo = styled.nav`
   position: relative;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,7 +16,11 @@ export const Logo = styled.nav`
   img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+
+    @media (max-width: 680px) {
+      width: 60%;
+      }
+   
   }
 `;
 
@@ -33,6 +38,10 @@ export const Grid = styled.div`
     padding: 10px;
     margin-left: 25px;
   }
+
+  @media (max-width: 680px) {
+    background: linear-gradient(to right, #3d3d3c, #3d3d3c, #3d3d3c, #2c2c2c);
+      }
 `;
 
 export const Grid1 = styled.nav`
@@ -40,8 +49,8 @@ export const Grid1 = styled.nav`
   width: 100%;
   align-items: flex-start;
 
-  @media (max-width: 700px) {
-    width: 100%;
+  @media (max-width: 680px) {
+   display: none;
   }
 
   section {
@@ -55,7 +64,7 @@ export const Grid1 = styled.nav`
     img {
       width: 30px;
       @media (max-width: 700px) {
-        width: 20px;
+        display: none;
       }
     }
 
@@ -65,7 +74,7 @@ export const Grid1 = styled.nav`
       display: flex;
       height: 60px;
 
-      @media (max-width: 700px) {
+      @media (max-width: 680px) {
         display: none;
       }
 
@@ -133,7 +142,7 @@ export const Grid1 = styled.nav`
 
           ul {
             display: none;
-            background-color: #34bd7d;
+         
           }
           &:hover ul {
             position: absolute;
@@ -160,12 +169,11 @@ export const Grid1 = styled.nav`
           li {
             margin: auto;
             display: flex;
-            width: 100%;
-            background-color: #faf6f1;
+            width: 100%;         
             border: solid 1px #f3f3f3;
 
             a {
-              color: #087741;
+              
               font-size: 13px;
               align-items: center;
 
@@ -206,7 +214,7 @@ export const Grid1 = styled.nav`
         text-decoration: none;
         align-items: center;
         color: #fff;
-        background-color: #8d3286;
+        background-color: #328d37;
       }
 
       @media (max-width: 900px) {
@@ -237,7 +245,7 @@ export const Grid2 = styled.div`
   svg {
     width: 25px;
     margin-left: 5px;
-    stroke: #d41010;
+    stroke: #ffffff;
   }
 `;
 
@@ -256,8 +264,9 @@ export const Hamburger = styled.div`
   svg {
     width: 25px;
     height: 25px;
-    stroke: #ff0000;
-    fill: #ff0000;
+    stroke: #ffffff;
+    stroke-width: 4px;
+    fill: #ffffff;
   }
 `;
 

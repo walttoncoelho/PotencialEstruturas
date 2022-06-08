@@ -16,17 +16,12 @@ export function MenuMobile({ menuIsVisible, setMenuIsVisible }) {
 
         <a href="sobre">SOBRE</a>
 
-        <a href="servicos">PROCEDIMENTOS</a>
+        <a href="servicos">SERVIÇOS</a>
 
-        <a href="tratamentos">TRATAMENTOS</a>
-
-        <a href="produtos">PRODUTOS</a>
-
-        <a href="consorcio">CONSÓRCIO</a>
-
+        
         <a href="contato">CONTATO</a>
 
-        <a href="listavip">LISTA VIP</a>
+
       </nav>
     </Container>
   );

@@ -19,22 +19,22 @@ export function NavBar({ setMenuIsVisible }) {
           >
             <path
               d="M5 16H27"
-              stroke="#8D3286"
-              stroke-width="2"
+             
+              
               stroke-linecap="round"
               stroke-linejoin="round"
             />
             <path
               d="M5 8H27"
-              stroke="#8D3286"
-              stroke-width="2"
+              
+              
               stroke-linecap="round"
               stroke-linejoin="round"
             />
             <path
               d="M5 24H27"
-              stroke="#8D3286"
-              stroke-width="2"
+              
+            
               stroke-linecap="round"
               stroke-linejoin="round"
             />
