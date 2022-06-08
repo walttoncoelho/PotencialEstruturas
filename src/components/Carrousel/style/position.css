@@ -1,0 +1,38 @@
+.position {
+  display: flex;
+  margin: auto;
+
+  max-width: 100%;
+  max-height: 500px;
+  
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+
+
+
+
+}
+
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #e20000;
+}
+
+.carousel-item {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #00ff95;
+}
+
