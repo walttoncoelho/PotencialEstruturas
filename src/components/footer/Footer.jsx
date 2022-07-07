@@ -54,7 +54,7 @@ export function Footer() {
             </a>
 
             <a
-              href="https://api.whatsapp.com/message/MN64IAXQPVMGO1?autoload=1&app_absent=0"
+              href="https://contate.me/potencialestruturas"
               target="_blank"
               rel="noopener noreferrer"
             >
