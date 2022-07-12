@@ -44,7 +44,7 @@ export function Footer() {
           <Grid3></Grid3>
           <Grid4>
             <a
-              href="https://www.instagram.com/belaexpress.estetica/"
+              href="https://www.instagram.com/potencialestruturas/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -64,7 +64,7 @@ export function Footer() {
         </Colum>
         <ByGoodApp>
           <p>
-            @jcambiental 2022 Todos os direitos reservados -{" "}
+            @potencialestruturas 2022 Todos os direitos reservados -{" "}
             <a
               href="https://www.goodapp.com.br"
               target="_blank"
