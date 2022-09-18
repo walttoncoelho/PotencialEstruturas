@@ -1,7 +1,7 @@
 import styled from "styled-components";
-
 export const Container = styled.nav`
-  position: relative;
+position: fixed;
+width: 100%;
 `;
 
 export const Logo = styled.nav`
@@ -28,8 +28,6 @@ export const Grid = styled.div`
   background: linear-gradient(to right, #3d3d3c, #3d3d3c, #e01717, #2c2c2c);
   display: flex;
   margin: auto;
-
-  position: relative;
   width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
