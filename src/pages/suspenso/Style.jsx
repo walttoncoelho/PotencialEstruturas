@@ -4,7 +4,7 @@ export const Container = styled.div`
 margin-top: -200px;
 display: flex;
 flex-direction: column;
-  background-color: #c40e0e;
+  background-color: #ffffff;
   width: 100%;
   height: 100vh;
   margin: auto;
@@ -12,12 +12,33 @@ flex-direction: column;
   align-items: center;
   justify-content: center;
 
-  h1{
-    color: #ffffff;
+`;
+
+
+export const Box = styled.div`
+margin-top: -200px;
+display: flex;
+flex-direction: column;
+  background-color: #fafafa;
+  width: 450px;
+  height: 450px;
+  margin: auto;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 50px;
   }
 
-  h3{
-    color: #ffffff;
+  h1{
+    color: #424242;
+  }
+
+  p{
+    color: #3f3f3f;
+    padding: 40px;
   }
 `;
+
 

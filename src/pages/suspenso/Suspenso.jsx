@@ -1,15 +1,22 @@
 import React from 'react'
-import { Container } from './Style'
+import { Box, Container } from './Style'
+import Not from '../../assets/suspenso/not.png'
 
 export default function Suspenso() {
   return (
     <>
     <Container>
+      <Box>
+
+<img className="Logo" src={Not} alt='imagem-logo' />
+
+
       
-    <h1>
-      Serviço suspenso
-    </h1>
-    <h3>Contacte o adminstrador do site.</h3>
+    <h2>
+      Serviço suspenso temorariamente
+    </h2>
+    <p>Contacte o adminstrador de <br/>hospedagem do seu site.</p>
+      </Box>
     </Container>
     </>
   )
