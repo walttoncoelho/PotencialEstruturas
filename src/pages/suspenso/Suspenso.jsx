@@ -13,7 +13,7 @@ export default function Suspenso() {
 
       
     <h2>
-      Serviço suspenso temorariamente
+      Serviço suspenso temporariamente
     </h2>
     <p>Contacte o adminstrador de <br/>hospedagem do seu site.</p>
       </Box>
