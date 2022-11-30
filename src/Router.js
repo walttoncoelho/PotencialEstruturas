@@ -12,7 +12,7 @@ export function AppRouter() {
   return (
     
     <Routes>
-      <Route path="/" element={<Navigate to="/suspenso" />} />
+      <Route path="/" element={<Navigate to="/home" />} />
       <Route path="/home" element={<Home />} />
       <Route path="/sobre" element={<Sobre />} />
       <Route path="/servicos" element={<ServicosPage />} />
